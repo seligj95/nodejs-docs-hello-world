@@ -52,5 +52,5 @@ jobs:
       with:
         app-name: 'jordan-lima-app'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_811e5114e88a48d2a6e8e498a65514c2 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_fdaa16be4d9640ff92e36755b2afbbf3 }}
         package: .
