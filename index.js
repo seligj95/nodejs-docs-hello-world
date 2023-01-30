@@ -3,7 +3,7 @@ const region = process.env.region
 
 const server = http.createServer((request, response) => {
     response.writeHead(200, {"Content-Type": "text/plain"});
-    response.end("Hello from ${East US}!");
+    response.end(`Hello from ${region}!`);
 });
 
 const port = process.env.PORT || 1337;
